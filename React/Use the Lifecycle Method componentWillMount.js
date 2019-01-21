@@ -1,13 +1,13 @@
 class MyComponent extends React.Component {
     constructor(props) {
-      super(props);
+        super(props);
     }
     componentWillMount() {
-      // change code below this line
-  
-      // change code above this line
+        // change code below this line
+        console.log('componentWillMount()')
+        // change code above this line
     }
     render() {
-      return <div />
+        return <div />
     }
-  };
+};

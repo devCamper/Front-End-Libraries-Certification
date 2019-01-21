@@ -1,9 +1,8 @@
 
 class Colorful extends React.Component {
     render() {
-      return (
-        <div>Big Red</div>
-      );
+        return (
+            <div style={{color: "red", fontSize: 72}}>Big Red</div>
+        );
     }
-  };
-  
+};
